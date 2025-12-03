@@ -13,4 +13,4 @@ __pycache__/
 *.pyc
 
 # Ignore System files
-.DS_Store
+.DS_Store*.zip
