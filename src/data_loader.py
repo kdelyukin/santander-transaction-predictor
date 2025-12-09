@@ -6,8 +6,8 @@ def load_data(data_path='data/'):
     Loads train and test data with memory optimization.
     """
     print("Loading data...")
-    train = pd.read_csv(f'{data_path}train.csv')
-    test = pd.read_csv(f'{data_path}test.csv')
+    train = pd.read_csv(f'{data_path}train_magic.csv')
+    test = pd.read_csv(f'{data_path}test_magic.csv')
 
     print("Optimizing memory...")
     # Downcast float64 to float32 to save memory
